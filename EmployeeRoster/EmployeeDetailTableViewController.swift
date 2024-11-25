@@ -11,6 +11,7 @@ class EmployeeDetailTableViewController: UITableViewController, UITextFieldDeleg
         employeeTypeLabel.text = employeeType.description
         employeeTypeLabel.textColor = .black
         updateSaveButtonState()
+        
     }
 
     @IBOutlet var nameTextField: UITextField!
